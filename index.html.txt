@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Warisan Ani Legacy</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f7c59f, #f2a65a);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 30px 25px;
+      border-radius: 18px;
+      width: 90%;
+      max-width: 380px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin-bottom: 5px;
+      font-size: 24px;
+    }
+
+    p {
+      margin-top: 0;
+      color: #666;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: block;
+      padding: 14px;
+      margin: 12px 0;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      font-size: 16px;
+    }
+
+    .fb { background: #1877f2; }
+    .wa { background: #25D366; }
+
+    .btn:hover {
+      opacity: 0.85;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <h1>🍪 WARISAN ANI LEGACY</h1>
+    <p>Homemade Biscuits & Cookies</p>
+
+    <a class="btn fb" href="https://www.facebook.com/share/1AnyoWFmR3/?mibextid=wwXIfr" target="_blank">
+      📘 Visit Facebook
+    </a>
+
+    <a class="btn wa" href="https://wa.me/60179639095" target="_blank">
+      💬 Order via WhatsApp
+    </a>
+  </div>
+</body>
+</html>
